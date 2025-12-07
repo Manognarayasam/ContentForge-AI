@@ -2,7 +2,7 @@
 
 **ContentForge AI** is an intelligent content generation platform that transforms blog posts into engaging social media content. Using cutting-edge AI models and multi-agent orchestration, it automatically creates platform-specific posts for LinkedIn, Instagram, and Twitter, along with AI-generated imagery.
 
-## 🚀 Features
+##  Features
 
 - **Blog Content Scraping**: Automatically fetches and extracts content from blog URLs
 - **AI-Powered Summarization**: Condenses blog content into concise summaries
@@ -15,7 +15,7 @@
 - **Cloud Storage**: Uploads images to Cloudinary for easy distribution
 - **MongoDB Integration**: Stores all generated content and metadata in a centralized database
 
-## 📋 Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Framework**: FastAPI (Python)
@@ -33,7 +33,7 @@
 - **Routing**: React Router DOM
 - **Styling**: CSS
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ContentForge-AI/
@@ -66,7 +66,7 @@ ContentForge-AI/
 └── README.md
 ```
 
-## 🔧 Prerequisites
+##  Prerequisites
 
 - Python 3.8+
 - Node.js 16+
@@ -77,7 +77,7 @@ ContentForge-AI/
   - Cloudinary account credentials
   - Firecrawl API key
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### Backend Setup
 
@@ -132,7 +132,7 @@ ContentForge-AI/
    ```
    The frontend will be available at `http://localhost:5173`
 
-## 🎯 Usage
+##  Usage
 
 1. Open the frontend application in your browser
 2. Submit a blog URL in the form
@@ -144,7 +144,7 @@ ContentForge-AI/
 4. View generated content on the posts page
 5. Download or share content directly to social platforms
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Create Post from Blog
 **POST** `/create_post_from_blog`
@@ -174,7 +174,7 @@ ContentForge-AI/
 
 Returns all generated posts from MongoDB.
 
-## 🔄 Processing Pipeline
+##  Processing Pipeline
 
 ```
 Input URL
@@ -197,7 +197,7 @@ Input URL
 [MongoDB] → Store All Results
 ```
 
-## 🛠️ Development
+##  Development
 
 ### Running Tests
 ```powershell
@@ -217,7 +217,7 @@ npm run lint
 npm run build
 ```
 
-## 📦 Dependencies
+##  Dependencies
 
 **Key Python Packages:**
 - fastapi, uvicorn (Web framework)
@@ -232,13 +232,13 @@ npm run build
 - axios (HTTP client)
 - react-router-dom (Routing)
 
-## 📚 Documentation
+##  Documentation
 
 - Backend explanation: See `Backend/explaination.md`
 - Blog examples: See `Backend/blog.md`
 - API documentation: Available at `http://localhost:8000/docs` (Swagger UI)
 
-## 🚀 Deployment
+##  Deployment
 
 ### Backend Deployment (e.g., Heroku, Railway, AWS)
 ```bash
@@ -253,7 +253,7 @@ npm run build
 # Deploy the dist/ folder
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these guidelines:
 1. Fork the repository
@@ -262,20 +262,20 @@ Contributions are welcome! Please follow these guidelines:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 🖼️ Screenshot
+##  Screenshot
 
 ![ContentForge AI Screenshot](./screenshots/image2.png)
 
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 📧 Contact
+##  Contact
 
 For questions or support, please open an issue on GitHub or contact the project maintainers.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Built with [FastAPI](https://fastapi.tiangolo.com/)
 - AI powered by [OpenAI](https://openai.com/) and [Google AI](https://ai.google.dev/)
